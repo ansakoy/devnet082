@@ -1,0 +1,9 @@
+---
+services:
+  ubuntu:
+    image: centos:7
+    container_name: clickhouse-01
+    restart: on-failure
+    command:
+      - sleep
+      - infinity
